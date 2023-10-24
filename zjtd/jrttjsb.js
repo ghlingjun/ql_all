@@ -215,7 +215,7 @@ async function ReadArticles() {
     for(userIdx=0; userIdx<userHeaderArr.length; userIdx++) {
         if(userStatus[userIdx]==true) {
             await ReadDouble()
-            await DailyArtsReward()
+            // await DailyArtsReward()
             await DailyPushReward()
         }
     }
